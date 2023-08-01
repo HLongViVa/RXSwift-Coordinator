@@ -7,11 +7,11 @@
 
 import UIKit
 import RxSwift
-import JGProgressHUD
+//import JGProgressHUD
 
 class BaseViewController: UIViewController {
 
-    var hud = JGProgressHUD(style: .dark)
+//    var hud = JGProgressHUD(style: .dark)
     let bag = DisposeBag()
     
     override public func viewDidLoad() {
@@ -27,11 +27,11 @@ class BaseViewController: UIViewController {
         _ = self.navigationController?.popViewController(animated: true)
     }
     
-    func showLoading() {
-        self.hud.show(in: self.view)
-    }
-    
-    func dismissLoading() {
-        self.hud.dismiss()
-    }
+//    func showLoading() {
+//        self.hud.show(in: self.view)
+//    }
+//
+//    func dismissLoading() {
+//        self.hud.dismiss()
+//    }
 }
