@@ -35,7 +35,10 @@ class SecondCoordinator: NavigationCoordinator<SecondRoute> {
     override func prepareTransition(for route: SecondRoute) -> NavigationTransition {
         switch route {
             case .second:
-            
+                let secondViewController = SecondViewController.init(nibName: "SecondViewController", bundle: Bundle(for: SecondViewController.self))
+                let secondViewModel = SecondViewModel(router: unownedRouter)
+                secondViewController.bind(to: secondViewModel)
+                return .push(secondViewController)
         }
     }
 }

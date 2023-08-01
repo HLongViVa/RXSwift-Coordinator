@@ -26,6 +26,8 @@
 		DB6F2E5E2A7904C500CBE9BD /* BindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2E5D2A7904C500CBE9BD /* BindableType.swift */; };
 		DB6F2E612A79050000CBE9BD /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2E602A79050000CBE9BD /* ViewModelProtocol.swift */; };
 		DB6F2E642A790D5800CBE9BD /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2E632A790D5800CBE9BD /* Coordinator.swift */; };
+		DB6F2E662A79101600CBE9BD /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2E652A79101600CBE9BD /* SecondViewModel.swift */; };
+		DB6F2E682A7911B200CBE9BD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2E672A7911B200CBE9BD /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		DB6F2E5D2A7904C500CBE9BD /* BindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableType.swift; sourceTree = "<group>"; };
 		DB6F2E602A79050000CBE9BD /* ViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
 		DB6F2E632A790D5800CBE9BD /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		DB6F2E652A79101600CBE9BD /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
+		DB6F2E672A7911B200CBE9BD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		F1EA2E4B8156B8B99AD1F462 /* Pods_RXSwift_Coordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXSwift_Coordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -213,6 +217,7 @@
 			children = (
 				DB6F2E562A79045B00CBE9BD /* SecondViewController.swift */,
 				DB6F2E572A79045B00CBE9BD /* SecondViewController.xib */,
+				DB6F2E652A79101600CBE9BD /* SecondViewModel.swift */,
 			);
 			path = SecondViewController;
 			sourceTree = "<group>";
@@ -238,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				DB6F2E602A79050000CBE9BD /* ViewModelProtocol.swift */,
+				DB6F2E672A7911B200CBE9BD /* BaseViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -502,12 +508,14 @@
 			files = (
 				DB6F2E612A79050000CBE9BD /* ViewModelProtocol.swift in Sources */,
 				DB6F2E502A7902FD00CBE9BD /* AppCoordinator.swift in Sources */,
+				DB6F2E682A7911B200CBE9BD /* BaseViewController.swift in Sources */,
 				DB6F2E5B2A79047600CBE9BD /* FirstViewModel.swift in Sources */,
 				DB6F2E232A7901F300CBE9BD /* ViewController.swift in Sources */,
 				DB6F2E5E2A7904C500CBE9BD /* BindableType.swift in Sources */,
 				DB6F2E1F2A7901F300CBE9BD /* AppDelegate.swift in Sources */,
 				DB6F2E582A79045B00CBE9BD /* SecondViewController.swift in Sources */,
 				DB6F2E212A7901F300CBE9BD /* SceneDelegate.swift in Sources */,
+				DB6F2E662A79101600CBE9BD /* SecondViewModel.swift in Sources */,
 				DB6F2E642A790D5800CBE9BD /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

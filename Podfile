@@ -8,7 +8,7 @@ target 'RXSwift+Coordinator' do
   # Pods for RXSwift+Coordinator
   pod 'XCoordinator', '~> 2.0'
   pod 'RxDataSources'
-  
+  pod 'JGProgressHUD'
   
 
   target 'RXSwift+CoordinatorTests' do

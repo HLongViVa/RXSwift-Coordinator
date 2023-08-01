@@ -28,8 +28,8 @@ class AppCoordinator: NavigationCoordinator<AppRoute>{
                 firstViewController.bind(to: firstViewModel)
                 return .push(firstViewController)
             case .second:
-                let sot
-                return.push()
+                let secondCoordinator = SecondCoordinator()
+            return .present(secondCoordinator)
         }
     }
 }

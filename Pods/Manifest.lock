@@ -1,5 +1,6 @@
 PODS:
   - Differentiator (5.0.0)
+  - JGProgressHUD (2.2)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
@@ -15,12 +16,14 @@ PODS:
   - XCoordinator/Core (2.2.1)
 
 DEPENDENCIES:
+  - JGProgressHUD
   - RxDataSources
   - XCoordinator (~> 2.0)
 
 SPEC REPOS:
   trunk:
     - Differentiator
+    - JGProgressHUD
     - RxCocoa
     - RxDataSources
     - RxRelay
@@ -29,12 +32,13 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   XCoordinator: 2cf9f72e10998b7a4a4bbeac3d07e071ea82fca3
 
-PODFILE CHECKSUM: ef174a041aae0b192ad26b324269527a20f93d54
+PODFILE CHECKSUM: 6d42be9d55940543d6940826716d075a61d3ebd4
 
 COCOAPODS: 1.12.1
