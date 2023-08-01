@@ -17,6 +17,8 @@ class SecondViewController: BaseViewController, BindableType {
     }
     
     func bindViewModel() {
-         
+        let input = SecondViewModel.Input()
+        
+        let output = viewModel.transform(input: input)
     }
 }

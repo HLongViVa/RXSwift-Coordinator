@@ -23,7 +23,7 @@ class FirstViewModel: ViewModelProtocol {
         input.startTrigger
             .do(onNext: {[weak self] in
                 if let strongSelf = self {
-                    
+                    strongSelf.router.trigger(.second)
                 }
             })
             .drive()

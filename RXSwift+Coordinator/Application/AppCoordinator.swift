@@ -29,7 +29,7 @@ class AppCoordinator: NavigationCoordinator<AppRoute>{
                 return .push(firstViewController)
             case .second:
                 let secondCoordinator = SecondCoordinator()
-            return .present(secondCoordinator)
+                return .present(secondCoordinator)
         }
     }
 }
