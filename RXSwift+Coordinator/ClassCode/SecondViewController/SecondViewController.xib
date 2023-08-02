@@ -40,7 +40,7 @@
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zb7-8k-tUQ">
                     <rect key="frame" x="50" y="566" width="330" height="50"/>
-                    <color key="backgroundColor" red="0.80000000000000004" green="0.515211591784004" blue="0.46921565576216545" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="DaH-uF-3Oo"/>
                     </constraints>
@@ -63,7 +63,7 @@
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDz-Lq-TIu">
                     <rect key="frame" x="50" y="636" width="330" height="50"/>
-                    <color key="backgroundColor" red="0.80000000000000004" green="0.51521159179999998" blue="0.46921565580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" red="0.80000000000000004" green="0.29360231935849923" blue="0.27366446451675508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="pip-bh-tlg"/>
                     </constraints>

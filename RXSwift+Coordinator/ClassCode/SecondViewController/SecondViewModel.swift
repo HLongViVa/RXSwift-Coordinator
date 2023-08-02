@@ -27,6 +27,7 @@ final class SecondViewModel: ViewModelProtocol {
             .asObservable()
             .subscribe(onNext: {[weak self] text in
                 titleSubject.onNext(text)
+                title = text
             }, onError: {[weak self] error in
                 print("onError \(error)")
             }, onCompleted: {
