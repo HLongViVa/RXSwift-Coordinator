@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_RXSwift_Coordinator_RXSwift_CoordinatorUITests : NSObject
-@end
-@implementation PodsDummy_Pods_RXSwift_Coordinator_RXSwift_CoordinatorUITests
-@end
