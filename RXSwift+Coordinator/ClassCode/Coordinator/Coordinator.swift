@@ -10,6 +10,10 @@ import XCoordinator
 
 enum SecondRoute: Route {
     case second
+    case pushThird(String)
+    case presentThird(String)
+    case goBack
+    case dismiss
 }
 
 class SecondCoordinator: NavigationCoordinator<SecondRoute> {
@@ -23,7 +27,7 @@ class SecondCoordinator: NavigationCoordinator<SecondRoute> {
     init(rootViewController: UINavigationController) {
         super.init(rootViewController: rootViewController, initialRoute: nil)
     }
-
+    
     init(router: SecondRoute) {
         super.init(initialRoute: router)
     }
@@ -39,6 +43,20 @@ class SecondCoordinator: NavigationCoordinator<SecondRoute> {
                 let secondViewModel = SecondViewModel(router: unownedRouter)
                 secondViewController.bind(to: secondViewModel)
                 return .push(secondViewController)
+            case .pushThird(let title):
+                let thirdViewController = ThirdViewController.init(nibName: "ThirdViewController", bundle: Bundle(for: ThirdViewController.self))
+                let thirdViewModel = ThirdViewModel(router: unownedRouter, title: title, isPresented: false)
+                thirdViewController.bind(to: thirdViewModel)
+                return .push(thirdViewController)
+            case .presentThird(let title):
+                let thirdViewController = ThirdViewController.init(nibName: "ThirdViewController", bundle: Bundle(for: ThirdViewController.self))
+                let thirdViewModel = ThirdViewModel(router: unownedRouter, title: title, isPresented: true)
+                thirdViewController.bind(to: thirdViewModel)
+                return .present(thirdViewController)
+            case .goBack:
+                return .pop()
+            case .dismiss:
+                return .dismiss()
         }
     }
 }

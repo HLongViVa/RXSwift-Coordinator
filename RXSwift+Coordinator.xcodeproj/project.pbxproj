@@ -27,6 +27,9 @@
 		DB6F2E642A790D5800CBE9BD /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2E632A790D5800CBE9BD /* Coordinator.swift */; };
 		DB6F2E662A79101600CBE9BD /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2E652A79101600CBE9BD /* SecondViewModel.swift */; };
 		DB6F2E682A7911B200CBE9BD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2E672A7911B200CBE9BD /* BaseViewController.swift */; };
+		DBD0CDE72A7A063500A010F2 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD0CDE52A7A063500A010F2 /* ThirdViewController.swift */; };
+		DBD0CDE82A7A063500A010F2 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD0CDE62A7A063500A010F2 /* ThirdViewController.xib */; };
+		DBD0CDEA2A7A064300A010F2 /* ThirdViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD0CDE92A7A064300A010F2 /* ThirdViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +79,9 @@
 		DB6F2E632A790D5800CBE9BD /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		DB6F2E652A79101600CBE9BD /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
 		DB6F2E672A7911B200CBE9BD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DBD0CDE52A7A063500A010F2 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		DBD0CDE62A7A063500A010F2 /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		DBD0CDE92A7A064300A010F2 /* ThirdViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewModel.swift; sourceTree = "<group>"; };
 		F1EA2E4B8156B8B99AD1F462 /* Pods_RXSwift_Coordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXSwift_Coordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -184,6 +190,7 @@
 		DB6F2E512A79039800CBE9BD /* ClassCode */ = {
 			isa = PBXGroup;
 			children = (
+				DBD0CDE42A7A062300A010F2 /* ThirdViewController */,
 				DB6F2E622A790D3000CBE9BD /* Coordinator */,
 				DB6F2E5F2A7904EB00CBE9BD /* Base */,
 				DB6F2E552A79041400CBE9BD /* FirstViewController */,
@@ -251,6 +258,16 @@
 				DB6F2E632A790D5800CBE9BD /* Coordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		DBD0CDE42A7A062300A010F2 /* ThirdViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DBD0CDE52A7A063500A010F2 /* ThirdViewController.swift */,
+				DBD0CDE62A7A063500A010F2 /* ThirdViewController.xib */,
+				DBD0CDE92A7A064300A010F2 /* ThirdViewModel.swift */,
+			);
+			path = ThirdViewController;
 			sourceTree = "<group>";
 		};
 		FABD44CC08A22366AAE5A11C /* Frameworks */ = {
@@ -375,6 +392,7 @@
 				DB6F2E592A79045B00CBE9BD /* SecondViewController.xib in Resources */,
 				DB6F2E2B2A7901F400CBE9BD /* LaunchScreen.storyboard in Resources */,
 				DB6F2E282A7901F400CBE9BD /* Assets.xcassets in Resources */,
+				DBD0CDE82A7A063500A010F2 /* ThirdViewController.xib in Resources */,
 				DB6F2E262A7901F300CBE9BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,8 +527,10 @@
 				DB6F2E5B2A79047600CBE9BD /* FirstViewModel.swift in Sources */,
 				DB6F2E232A7901F300CBE9BD /* ViewController.swift in Sources */,
 				DB6F2E5E2A7904C500CBE9BD /* BindableType.swift in Sources */,
+				DBD0CDEA2A7A064300A010F2 /* ThirdViewModel.swift in Sources */,
 				DB6F2E1F2A7901F300CBE9BD /* AppDelegate.swift in Sources */,
 				DB6F2E582A79045B00CBE9BD /* SecondViewController.swift in Sources */,
+				DBD0CDE72A7A063500A010F2 /* ThirdViewController.swift in Sources */,
 				DB6F2E662A79101600CBE9BD /* SecondViewModel.swift in Sources */,
 				DB6F2E642A790D5800CBE9BD /* Coordinator.swift in Sources */,
 			);
