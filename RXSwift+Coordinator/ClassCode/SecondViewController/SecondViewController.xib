@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondViewController" customModule="RXSwift_Coordinator" customModuleProvider="target">
+            <connections>
+                <outlet property="btnBack" destination="LQu-eU-Lmg" id="NUY-0q-BSP"/>
+                <outlet property="btnPresentViewController" destination="Zb7-8k-tUQ" id="Sf8-5d-Sll"/>
+                <outlet property="btnPushViewController" destination="wDz-Lq-TIu" id="zRM-D3-Cd9"/>
+                <outlet property="btnShowText" destination="Zij-W2-sJI" id="R8X-FL-Zah"/>
+                <outlet property="lblTitle" destination="rTA-vU-MeP" id="USZ-YY-pI3"/>
+                <outlet property="tfdInput" destination="KRG-Nb-jVr" id="rUw-MO-uCk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zij-W2-sJI">
+                    <rect key="frame" x="90" y="443.66666666666669" width="250" height="70.000000000000057"/>
+                    <color key="backgroundColor" red="0.52799219866555969" green="0.53011969369066636" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="250" id="0Pk-09-QNo"/>
+                        <constraint firstAttribute="height" constant="70" id="MV9-iw-Zcj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Reset text">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zb7-8k-tUQ">
+                    <rect key="frame" x="50" y="566" width="330" height="50"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="DaH-uF-3Oo"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Present ThirdViewController ">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Nhập text hiển thị" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KRG-Nb-jVr">
+                    <rect key="frame" x="30" y="263" width="370" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Demo rxswift input output" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rTA-vU-MeP">
+                    <rect key="frame" x="30" y="317" width="370" height="96.666666666666686"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDz-Lq-TIu">
+                    <rect key="frame" x="50" y="636" width="330" height="50"/>
+                    <color key="backgroundColor" red="0.80000000000000004" green="0.29360231935849923" blue="0.27366446451675508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="pip-bh-tlg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Push ThirdViewController ">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JVU-ei-QQF">
+                    <rect key="frame" x="20" y="79" width="390" height="27.666666666666671"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQu-eU-Lmg">
+                    <rect key="frame" x="50" y="710" width="330" height="50"/>
+                    <color key="backgroundColor" red="0.80000000000000004" green="0.51521159179999998" blue="0.46921565580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="RdG-AH-X1q"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Back FirstViewController ">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="LQu-eU-Lmg" firstAttribute="top" secondItem="wDz-Lq-TIu" secondAttribute="bottom" constant="24" id="0it-ZK-14K"/>
+                <constraint firstItem="LQu-eU-Lmg" firstAttribute="leading" secondItem="wDz-Lq-TIu" secondAttribute="leading" id="9Qg-Dn-nns"/>
+                <constraint firstItem="KRG-Nb-jVr" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="204" id="9cA-Rq-Lzc"/>
+                <constraint firstItem="rTA-vU-MeP" firstAttribute="top" secondItem="KRG-Nb-jVr" secondAttribute="bottom" constant="20" id="BJM-Fu-pVW"/>
+                <constraint firstItem="wDz-Lq-TIu" firstAttribute="leading" secondItem="Zb7-8k-tUQ" secondAttribute="leading" id="E5Y-YQ-qRE"/>
+                <constraint firstItem="wDz-Lq-TIu" firstAttribute="trailing" secondItem="Zb7-8k-tUQ" secondAttribute="trailing" id="F6W-6I-i8a"/>
+                <constraint firstItem="LQu-eU-Lmg" firstAttribute="trailing" secondItem="wDz-Lq-TIu" secondAttribute="trailing" id="GTV-uQ-EL5"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rTA-vU-MeP" secondAttribute="trailing" constant="30" id="JSF-Hs-1yf"/>
+                <constraint firstItem="rTA-vU-MeP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="Pvo-hh-8oU"/>
+                <constraint firstItem="wDz-Lq-TIu" firstAttribute="top" secondItem="Zb7-8k-tUQ" secondAttribute="bottom" constant="20" id="WOb-0H-Gjt"/>
+                <constraint firstItem="Zij-W2-sJI" firstAttribute="top" secondItem="KRG-Nb-jVr" secondAttribute="bottom" constant="146.66666666666669" id="Zma-Ew-ATv"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KRG-Nb-jVr" secondAttribute="trailing" constant="30" id="boB-a5-tYf"/>
+                <constraint firstItem="Zb7-8k-tUQ" firstAttribute="top" secondItem="Zij-W2-sJI" secondAttribute="bottom" constant="52.333333333333258" id="eIF-Re-qaC"/>
+                <constraint firstItem="Zij-W2-sJI" firstAttribute="top" secondItem="rTA-vU-MeP" secondAttribute="bottom" constant="30" id="hCd-pj-zu3"/>
+                <constraint firstItem="Zb7-8k-tUQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="leT-Dt-SFw"/>
+                <constraint firstItem="Zij-W2-sJI" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="niC-wT-joV"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JVU-ei-QQF" secondAttribute="trailing" constant="20" id="oNC-db-cze"/>
+                <constraint firstItem="JVU-ei-QQF" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="tCf-Xx-gVa"/>
+                <constraint firstItem="JVU-ei-QQF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="vLL-4B-pd9"/>
+                <constraint firstItem="Zij-W2-sJI" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="vzk-TG-UVu"/>
+                <constraint firstItem="KRG-Nb-jVr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="wps-d6-M57"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Zb7-8k-tUQ" secondAttribute="trailing" constant="50" id="zsu-2Q-d7p"/>
+            </constraints>
+            <point key="canvasLocation" x="131.16279069767441" y="-11.587982832618026"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
