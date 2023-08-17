@@ -12,6 +12,7 @@ enum SecondRoute: Route {
     case second
     case pushThird(String)
     case presentThird(String)
+    case collectionView
     case goBack
     case dismiss
 }
@@ -53,6 +54,11 @@ class SecondCoordinator: NavigationCoordinator<SecondRoute> {
                 let thirdViewModel = ThirdViewModel(router: unownedRouter, title: title, isPresented: true)
                 thirdViewController.bind(to: thirdViewModel)
                 return .present(thirdViewController)
+            case .collectionView:
+                let collectionViewController = CollectionViewDemoViewController.init(nibName: "CollectionViewDemoViewController", bundle: Bundle(for: CollectionViewDemoViewController.self))
+                let collectionViewModel = CollectionViewDemoViewModel(router: unownedRouter)
+                collectionViewController.bind(to: collectionViewModel)
+                return .push(collectionViewController)
             case .goBack:
                 return .pop()
             case .dismiss:

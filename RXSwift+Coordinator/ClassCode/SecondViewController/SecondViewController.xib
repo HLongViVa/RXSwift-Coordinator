@@ -12,6 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondViewController" customModule="RXSwift_Coordinator" customModuleProvider="target">
             <connections>
                 <outlet property="btnBack" destination="LQu-eU-Lmg" id="NUY-0q-BSP"/>
+                <outlet property="btnOpenCollectionViewDemo" destination="39w-UZ-7Kt" id="BNJ-Kv-fc1"/>
                 <outlet property="btnPresentViewController" destination="Zb7-8k-tUQ" id="Sf8-5d-Sll"/>
                 <outlet property="btnPushViewController" destination="wDz-Lq-TIu" id="zRM-D3-Cd9"/>
                 <outlet property="btnShowText" destination="Zij-W2-sJI" id="R8X-FL-Zah"/>
@@ -91,6 +92,15 @@
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39w-UZ-7Kt">
+                    <rect key="frame" x="50" y="780" width="330" height="50"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Demo CollectionView">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -102,12 +112,16 @@
                 <constraint firstItem="wDz-Lq-TIu" firstAttribute="leading" secondItem="Zb7-8k-tUQ" secondAttribute="leading" id="E5Y-YQ-qRE"/>
                 <constraint firstItem="wDz-Lq-TIu" firstAttribute="trailing" secondItem="Zb7-8k-tUQ" secondAttribute="trailing" id="F6W-6I-i8a"/>
                 <constraint firstItem="LQu-eU-Lmg" firstAttribute="trailing" secondItem="wDz-Lq-TIu" secondAttribute="trailing" id="GTV-uQ-EL5"/>
+                <constraint firstItem="39w-UZ-7Kt" firstAttribute="height" secondItem="LQu-eU-Lmg" secondAttribute="height" id="Ga0-C3-Tov"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rTA-vU-MeP" secondAttribute="trailing" constant="30" id="JSF-Hs-1yf"/>
                 <constraint firstItem="rTA-vU-MeP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="Pvo-hh-8oU"/>
+                <constraint firstItem="39w-UZ-7Kt" firstAttribute="trailing" secondItem="LQu-eU-Lmg" secondAttribute="trailing" id="Vgr-hl-PaP"/>
                 <constraint firstItem="wDz-Lq-TIu" firstAttribute="top" secondItem="Zb7-8k-tUQ" secondAttribute="bottom" constant="20" id="WOb-0H-Gjt"/>
                 <constraint firstItem="Zij-W2-sJI" firstAttribute="top" secondItem="KRG-Nb-jVr" secondAttribute="bottom" constant="146.66666666666669" id="Zma-Ew-ATv"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KRG-Nb-jVr" secondAttribute="trailing" constant="30" id="boB-a5-tYf"/>
+                <constraint firstItem="39w-UZ-7Kt" firstAttribute="leading" secondItem="LQu-eU-Lmg" secondAttribute="leading" id="dQ4-q3-ZmB"/>
                 <constraint firstItem="Zb7-8k-tUQ" firstAttribute="top" secondItem="Zij-W2-sJI" secondAttribute="bottom" constant="52.333333333333258" id="eIF-Re-qaC"/>
+                <constraint firstItem="39w-UZ-7Kt" firstAttribute="top" secondItem="LQu-eU-Lmg" secondAttribute="bottom" constant="20" id="gIx-NU-SXq"/>
                 <constraint firstItem="Zij-W2-sJI" firstAttribute="top" secondItem="rTA-vU-MeP" secondAttribute="bottom" constant="30" id="hCd-pj-zu3"/>
                 <constraint firstItem="Zb7-8k-tUQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="leT-Dt-SFw"/>
                 <constraint firstItem="Zij-W2-sJI" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="niC-wT-joV"/>

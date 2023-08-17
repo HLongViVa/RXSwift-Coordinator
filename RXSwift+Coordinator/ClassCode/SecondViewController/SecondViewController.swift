@@ -14,6 +14,7 @@ class SecondViewController: BaseViewController, BindableType {
     @IBOutlet weak var btnPushViewController: UIButton!
     @IBOutlet weak var btnPresentViewController: UIButton!
     @IBOutlet weak var btnBack: UIButton!
+    @IBOutlet weak var btnOpenCollectionViewDemo: UIButton!
     
     var viewModel: SecondViewModel!
 
@@ -27,6 +28,7 @@ class SecondViewController: BaseViewController, BindableType {
             getTextInputTrigger: tfdInput.rx.text.orEmpty.asDriver(),
             showTextTrigger: btnShowText.rx.tap.asDriver(),
             presentViewControllerTrigger: btnPresentViewController.rx.tap.asDriver(),
+            openCollectionViewTrigger: btnOpenCollectionViewDemo.rx.tap.asDriver(),
             pushViewControllerTrigger: btnPushViewController.rx.tap.asDriver(),
             backTrigger: btnBack.rx.tap.asDriver()
         )

@@ -52,6 +52,15 @@ final class SecondViewModel: ViewModelProtocol {
             .drive()
             .disposed(by: bag)
                 
+        input.openCollectionViewTrigger
+            .do(onNext: { [weak self] in
+                if let strongSelf = self {
+                    strongSelf.router.trigger(.collectionView)
+                }
+            })
+            .drive()
+            .disposed(by: bag)
+                
         input.presentViewControllerTrigger
             .do(onNext: {[weak self] in
                 if let strongSelf = self {
@@ -80,6 +89,7 @@ extension SecondViewModel {
         let getTextInputTrigger: Driver<String>
         let showTextTrigger: Driver<Void>
         let presentViewControllerTrigger: Driver<Void>
+        let openCollectionViewTrigger: Driver<Void>
         let pushViewControllerTrigger: Driver<Void>
         let backTrigger: Driver<Void>
     }

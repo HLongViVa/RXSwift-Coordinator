@@ -10,6 +10,12 @@
 		060BC6DA2A49BC1E5B2039C3 /* Pods_RXSwift_Coordinator_RXSwift_CoordinatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90F65337B7DC157F20744E0 /* Pods_RXSwift_Coordinator_RXSwift_CoordinatorUITests.framework */; };
 		3E4E093D301F648CF3D989FA /* Pods_RXSwift_Coordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1EA2E4B8156B8B99AD1F462 /* Pods_RXSwift_Coordinator.framework */; };
 		D30D87D0E057FB5FE8D535D5 /* Pods_RXSwift_CoordinatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5890CCA122BFB63DF1887972 /* Pods_RXSwift_CoordinatorTests.framework */; };
+		DB00602B2A8633A1007D81C0 /* CollectionViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0060292A8633A1007D81C0 /* CollectionViewDemoViewController.swift */; };
+		DB00602C2A8633A1007D81C0 /* CollectionViewDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB00602A2A8633A1007D81C0 /* CollectionViewDemoViewController.xib */; };
+		DB00602E2A8633D0007D81C0 /* CollectionViewDemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00602D2A8633D0007D81C0 /* CollectionViewDemoViewModel.swift */; };
+		DB0060362A8635FB007D81C0 /* DemoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0060342A8635FB007D81C0 /* DemoCollectionViewCell.swift */; };
+		DB0060372A8635FB007D81C0 /* DemoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB0060352A8635FB007D81C0 /* DemoCollectionViewCell.xib */; };
+		DB0060392A86378D007D81C0 /* DemoItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0060382A86378D007D81C0 /* DemoItemViewModel.swift */; };
 		DB6F2E1F2A7901F300CBE9BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2E1E2A7901F300CBE9BD /* AppDelegate.swift */; };
 		DB6F2E232A7901F300CBE9BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2E222A7901F300CBE9BD /* ViewController.swift */; };
 		DB6F2E262A7901F300CBE9BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6F2E242A7901F300CBE9BD /* Main.storyboard */; };
@@ -27,6 +33,7 @@
 		DB6F2E642A790D5800CBE9BD /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2E632A790D5800CBE9BD /* Coordinator.swift */; };
 		DB6F2E662A79101600CBE9BD /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2E652A79101600CBE9BD /* SecondViewModel.swift */; };
 		DB6F2E682A7911B200CBE9BD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F2E672A7911B200CBE9BD /* BaseViewController.swift */; };
+		DB9363032A8E01F0001E015C /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9363022A8E01F0001E015C /* Reusable.swift */; };
 		DBD0CDE72A7A063500A010F2 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD0CDE52A7A063500A010F2 /* ThirdViewController.swift */; };
 		DBD0CDE82A7A063500A010F2 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD0CDE62A7A063500A010F2 /* ThirdViewController.xib */; };
 		DBD0CDEA2A7A064300A010F2 /* ThirdViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD0CDE92A7A064300A010F2 /* ThirdViewModel.swift */; };
@@ -58,6 +65,12 @@
 		9CEEDD81E8025A6594411AB7 /* Pods-RXSwift+CoordinatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwift+CoordinatorTests.release.xcconfig"; path = "Target Support Files/Pods-RXSwift+CoordinatorTests/Pods-RXSwift+CoordinatorTests.release.xcconfig"; sourceTree = "<group>"; };
 		D5169975204AC943AAF47C53 /* Pods-RXSwift+Coordinator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwift+Coordinator.release.xcconfig"; path = "Target Support Files/Pods-RXSwift+Coordinator/Pods-RXSwift+Coordinator.release.xcconfig"; sourceTree = "<group>"; };
 		D90F65337B7DC157F20744E0 /* Pods_RXSwift_Coordinator_RXSwift_CoordinatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXSwift_Coordinator_RXSwift_CoordinatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0060292A8633A1007D81C0 /* CollectionViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDemoViewController.swift; sourceTree = "<group>"; };
+		DB00602A2A8633A1007D81C0 /* CollectionViewDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewDemoViewController.xib; sourceTree = "<group>"; };
+		DB00602D2A8633D0007D81C0 /* CollectionViewDemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDemoViewModel.swift; sourceTree = "<group>"; };
+		DB0060342A8635FB007D81C0 /* DemoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCollectionViewCell.swift; sourceTree = "<group>"; };
+		DB0060352A8635FB007D81C0 /* DemoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoCollectionViewCell.xib; sourceTree = "<group>"; };
+		DB0060382A86378D007D81C0 /* DemoItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoItemViewModel.swift; sourceTree = "<group>"; };
 		DB6F2E1B2A7901F300CBE9BD /* RXSwift+Coordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RXSwift+Coordinator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6F2E1E2A7901F300CBE9BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB6F2E222A7901F300CBE9BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +92,7 @@
 		DB6F2E632A790D5800CBE9BD /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		DB6F2E652A79101600CBE9BD /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
 		DB6F2E672A7911B200CBE9BD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DB9363022A8E01F0001E015C /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		DBD0CDE52A7A063500A010F2 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		DBD0CDE62A7A063500A010F2 /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 		DBD0CDE92A7A064300A010F2 /* ThirdViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewModel.swift; sourceTree = "<group>"; };
@@ -124,6 +138,27 @@
 				9CEEDD81E8025A6594411AB7 /* Pods-RXSwift+CoordinatorTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB0060282A863382007D81C0 /* CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB00602F2A863401007D81C0 /* Cell */,
+				DB0060292A8633A1007D81C0 /* CollectionViewDemoViewController.swift */,
+				DB00602A2A8633A1007D81C0 /* CollectionViewDemoViewController.xib */,
+				DB00602D2A8633D0007D81C0 /* CollectionViewDemoViewModel.swift */,
+			);
+			path = CollectionViewController;
+			sourceTree = "<group>";
+		};
+		DB00602F2A863401007D81C0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DB0060342A8635FB007D81C0 /* DemoCollectionViewCell.swift */,
+				DB0060352A8635FB007D81C0 /* DemoCollectionViewCell.xib */,
+				DB0060382A86378D007D81C0 /* DemoItemViewModel.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		DB6F2E122A7901F300CBE9BD = {
@@ -190,6 +225,7 @@
 		DB6F2E512A79039800CBE9BD /* ClassCode */ = {
 			isa = PBXGroup;
 			children = (
+				DB0060282A863382007D81C0 /* CollectionViewController */,
 				DBD0CDE42A7A062300A010F2 /* ThirdViewController */,
 				DB6F2E622A790D3000CBE9BD /* Coordinator */,
 				DB6F2E5F2A7904EB00CBE9BD /* Base */,
@@ -239,6 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				DB6F2E5D2A7904C500CBE9BD /* BindableType.swift */,
+				DB9363022A8E01F0001E015C /* Reusable.swift */,
 			);
 			path = Ultilities;
 			sourceTree = "<group>";
@@ -389,6 +426,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB00602C2A8633A1007D81C0 /* CollectionViewDemoViewController.xib in Resources */,
+				DB0060372A8635FB007D81C0 /* DemoCollectionViewCell.xib in Resources */,
 				DB6F2E592A79045B00CBE9BD /* SecondViewController.xib in Resources */,
 				DB6F2E2B2A7901F400CBE9BD /* LaunchScreen.storyboard in Resources */,
 				DB6F2E282A7901F400CBE9BD /* Assets.xcassets in Resources */,
@@ -521,7 +560,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB9363032A8E01F0001E015C /* Reusable.swift in Sources */,
 				DB6F2E612A79050000CBE9BD /* ViewModelProtocol.swift in Sources */,
+				DB0060362A8635FB007D81C0 /* DemoCollectionViewCell.swift in Sources */,
+				DB0060392A86378D007D81C0 /* DemoItemViewModel.swift in Sources */,
+				DB00602E2A8633D0007D81C0 /* CollectionViewDemoViewModel.swift in Sources */,
 				DB6F2E502A7902FD00CBE9BD /* AppCoordinator.swift in Sources */,
 				DB6F2E682A7911B200CBE9BD /* BaseViewController.swift in Sources */,
 				DB6F2E5B2A79047600CBE9BD /* FirstViewModel.swift in Sources */,
@@ -529,6 +572,7 @@
 				DB6F2E5E2A7904C500CBE9BD /* BindableType.swift in Sources */,
 				DBD0CDEA2A7A064300A010F2 /* ThirdViewModel.swift in Sources */,
 				DB6F2E1F2A7901F300CBE9BD /* AppDelegate.swift in Sources */,
+				DB00602B2A8633A1007D81C0 /* CollectionViewDemoViewController.swift in Sources */,
 				DB6F2E582A79045B00CBE9BD /* SecondViewController.swift in Sources */,
 				DBD0CDE72A7A063500A010F2 /* ThirdViewController.swift in Sources */,
 				DB6F2E662A79101600CBE9BD /* SecondViewModel.swift in Sources */,
